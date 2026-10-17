@@ -1,0 +1,10 @@
+[project]
+name = "fastpay-python"
+version = "3.2.0"
+description = "Modern FastPay payment gateway client"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "httpx>=0.24.0",
+    "pydantic>=2.0.0"
+]
